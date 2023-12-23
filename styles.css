@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#envelope {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#envelopeImage {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#cardContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#cardImage {
+    max-width: 90vw;
+    max-height: 90vh;
+}
